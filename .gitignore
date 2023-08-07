@@ -2,3 +2,4 @@ model_params
 model_params_caption
 data/sentence.pkl
 data/VG*
+results
