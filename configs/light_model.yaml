@@ -1,0 +1,9 @@
+INPUT:
+  img_root: data/visual-genome/VG_100K
+  data_path: data/VG-regions-lite.h5
+  lut_path: data/VG-regions-dicts-lite.pkl
+  sentences_path: data/sentence.pkl
+  model_path: model_params/train_text_freeze_5.pth.tar #for caption training
+
+MODEL:
+  model_name: 'visual_encoder'
